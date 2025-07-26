@@ -1,0 +1,52 @@
+section{
+  padding: 80px 0;
+  text-align: center;
+}
+h2{
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  color: rgb(44, 62, 80);
+  text-transform: uppercase;
+  padding-top: 50px;
+}
+.befor{
+  width: 80px;
+  height: 4px;
+  background-color: rgb(44, 62, 80);
+}
+.after{
+  width: 80px;
+  height: 4px;
+  background-color: rgb(44, 62, 80);
+}
+i{
+  transform: translateY(-5px);
+  color: rgb(44, 62, 80);
+}
+.my-image{
+  position: relative;
+  overflow: hidden;
+}
+.overlay{
+  background-color: rgba(26, 186, 159, .9);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: all .5s;
+}
+.my-image:hover .overlay{
+  visibility: visible;
+  opacity: 1;
+
+}
+.overlay i{
+  font-size: 80px;
+  color: #fff;
+
+}

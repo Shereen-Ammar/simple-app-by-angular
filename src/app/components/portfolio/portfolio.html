@@ -1,0 +1,96 @@
+<section>
+  <h2>portfolio component</h2>
+
+  <div class="icon d-flex justify-content-center">
+    <div class="befor mx-2"></div>
+    <i class="fa-solid fa-star mx-2"></i>
+    <div class="after mx-2"></div>
+  </div>
+
+  <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-4 rounded-3 overflow-hidden mt-5 g-5" (click)="imgDetails='/images/p1.png'">
+          <div class="my-image" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <img src="/images/p1.png" class="w-100 rounded-3 g-5" alt="image1">
+            <div class="overlay w-100 rounded-3">
+              <i class="fa-solid fa-plus"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 rounded-3 overflow-hidden mt-5 g-5" (click)="imgDetails='/images/p2.png'">
+          <div class="my-image" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <img src="/images/p2.png" class="w-100 rounded-3 g-5" alt="image1">
+            <div class="overlay w-100 rounded-3">
+              <i class="fa-solid fa-plus"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 rounded-3 overflow-hidden mt-5 g-5" (click)="imgDetails='/images/p3.png'">
+          <div class="my-image" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <img src="/images/p3.png" class="w-100 rounded-3 g-5" alt="image1">
+            <div class="overlay w-100 rounded-3">
+              <i class="fa-solid fa-plus"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 rounded-3 overflow-hidden mt-5 g-5" (click)="imgDetails='/images/p1.png'">
+          <div class="my-image" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <img src="/images/p1.png" class="w-100 rounded-3 g-5" alt="image1">
+            <div class="overlay w-100 rounded-3">
+              <i class="fa-solid fa-plus"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 rounded-3 overflow-hidden mt-5 g-5" (click)="imgDetails='/images/p2.png'">
+          <div class="my-image" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <img src="/images/p2.png" class="w-100 rounded-3 g-5" alt="image1">
+            <div class="overlay w-100 rounded-3">
+              <i class="fa-solid fa-plus"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 rounded-3 overflow-hidden mt-5 g-5" (click)="imgDetails='/images/p3.png'">
+          <div class="my-image" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <img src="/images/p3.png" class="w-100 rounded-3 g-5" alt="image1">
+            <div class="overlay w-100 rounded-3">
+              <i class="fa-solid fa-plus"></i>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+<!-- Modal -->
+<div class="modal fade mt-5" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+        <img [src]="imgDetails" class="w-100" alt="">
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+</section>

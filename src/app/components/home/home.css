@@ -1,0 +1,37 @@
+section{
+  background-color: #1ABC9C;
+  text-align: center;
+  color: #fff;
+  padding-bottom: 30px;
+  padding-top: 80px;
+}
+img{
+  margin-top: 45px;
+  margin-bottom: 20px;
+  width: 250px;
+}
+.befor{
+  width: 80px;
+  height: 4px;
+  background-color: #fff;
+}
+.after{
+  width: 80px;
+  height: 4px;
+  background-color: #fff;
+}
+i{
+  transform: translateY(-5px);
+}
+h1{
+  font-size:40px ;
+  font-weight: 700;
+  line-height:48px ;
+  margin: 20px 0;
+}
+p{
+  font-size:16px;
+  font-weight: 400;
+  line-height:24px ;
+  margin: 10px 0;
+}

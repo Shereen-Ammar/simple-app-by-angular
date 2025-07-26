@@ -1,0 +1,41 @@
+section{
+  background-color: #1ABC9C;
+  min-height: 580px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+h2{
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #fff;
+  text-transform: uppercase;
+  padding-top: 70px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #fff;
+  margin-top: 20px;
+}
+.befor{
+  width: 80px;
+  height: 4px;
+  background-color: #fff;
+}
+.after{
+  width: 80px;
+  height: 4px;
+  background-color: #fff;
+}
+i{
+  transform: translateY(-5px);
+  color: #fff;
+}
+p{
+  width: 35%;
+}

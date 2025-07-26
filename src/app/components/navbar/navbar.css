@@ -1,0 +1,26 @@
+nav{
+  background-color: #2C3E50;
+  transition: padding .5s;
+  /* padding: 25px 0; */
+}
+a{
+  color: #ffffffff;
+}
+a:hover{
+  color: #fff;
+}
+.logo{
+  font-size:32px ;
+  font-weight: 700;
+  line-height:48px ;
+  text-transform: uppercase;
+}
+.logo:hover{
+  color: #fff;
+}
+
+.nav-item a{
+  font-size:16px ;
+  font-weight: 700;
+  line-height:24px ;
+}
